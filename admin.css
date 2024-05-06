@@ -29,12 +29,15 @@ body {
 }
 .logo{
     margin: 0 20px 0 20px;
+    transition: color .3s ease-in-out;
 }
 .logo a {
     text-decoration: none;
     color: #fff;
 }
-
+.logo:hover{
+    color: orange;
+}
 .navigation ul{
     list-style: none;
     padding: 0;
